@@ -1,8 +1,19 @@
-<!DOCTYPE html>
-html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title index
-    body
-        h1 hello index
+extends layouts/main.pug
+
+block content
+    section.wrapper
+        .wrapper__col1
+        .wrapper__col2
+            .wrapper__col2__left 1
+            .wrapper__col2__main
+                .wrapper__col2__main__top.mt
+                    .wrapper__col2__main__top__img
+                    .wrapper__col2__main__top__txt Test
+                .wrapper__col2__main__bottom.mb
+                    .wrapper__col2__main__bottom__txt Test
+                    .wrapper__col2__main__bottom__img 
+            .wrapper__col2__right 3
+        .wrapper__col3
+            .wrapper__col3__left 1
+            .wrapper__col3__main 2 
+            .wrapper__col3__right 3
